@@ -10,7 +10,8 @@
 }
 .contanier form{
     display: flex;
-    
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .contanier form .col{
     display: flex;
@@ -27,7 +28,7 @@
     }
 }
 .contanier form .col label{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: normal;
 }.contanier form .col .Brieft,
 .contanier form .col input{
@@ -41,15 +42,13 @@
 .star {
     position: relative;
 }
-
 .star::after {
     content: "*"; 
     color: red; 
     font-size: 20px;
     position: absolute;
     top: 0; 
-}
-    
+}  
 .contanier a{
     display: block;
     padding: 10px;
@@ -58,12 +57,6 @@
     background-color: #009688;
     margin: 10px;
     text-align: center;
-
 }
-/* div form div input{
-    display: block;
-    padding: 5px;
-    border: 1px solid #ececec;
-    border-radius: 2px;
-} */
+
 
